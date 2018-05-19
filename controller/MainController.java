@@ -1,4 +1,4 @@
-package home.blackharold.sweater;
+package home.blackharold.sweater.controller;
 
 import home.blackharold.sweater.domain.Message;
 import home.blackharold.sweater.repository.MessageRepository;
@@ -8,11 +8,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.List;
 import java.util.Map;
 
 @Controller
-public class GreetingController {
+public class MainController {
     @Autowired
     private MessageRepository messageRepository;
     
